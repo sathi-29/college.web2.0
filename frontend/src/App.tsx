@@ -5,7 +5,7 @@ import LoadingSpinner from './components/common/LoadingSpinner'
 
 const Home = React.lazy(() => import('./pages/Home'))
 const Colleges = React.lazy(() => import('./pages/Colleges'))
-const CollegeDetail = React.lazy(() => import('./pages/colleges/CollegeDetail'))
+const CollegeDetail = React.lazy(() => import('./pages/CollegeDetail'))
 const Predictor = React.lazy(() => import('./pages/Predictor'))
 const Login = React.lazy(() => import('./pages/Login'))
 const Register = React.lazy(() => import('./pages/Register'))
